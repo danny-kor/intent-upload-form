@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>엑셀 업로드</title>
+</head>
+<body>
+  <h2>소비자 인텐트 엑셀 업로드</h2>
+  <form action="https://teddynote.app/webhook/intent-upload"
+        method="POST"
+        enctype="multipart/form-data">
+    <input type="file" name="upload_excel" accept=".xlsx,.xls" required />
+    <button type="submit">업로드</button>
+  </form>
+</body>
+</html>
